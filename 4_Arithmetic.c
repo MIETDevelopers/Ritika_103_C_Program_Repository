@@ -9,19 +9,19 @@ int main(){
     switch(operator)
     {
         case '+':
-            printf("%.2lf + %.2lf = %.2lf",a, b, a+b); //Addition Function
+            printf("%.2lf + %.2lf = %.2lf",a, b); //Addition Function
             break;
 
         case '-':
-            printf("%.2lf - %.2lf = %.2lf",a, b, a-b); //Subtraction Function
+            printf("%.2lf - %.2lf = %.2lf",a, b); //Subtraction Function
             break;
 
         case '*':
-            printf("%.2lf * %.2lf = %.2lf",a, b, a*b); //Multiplication Function
+            printf("%.2lf * %.2lf = %.2lf",a, b; //Multiplication Function
             break;
 
         case '/':
-            printf("%.2lf / %.2lf = %.2lf",a, b, a/b); //Division Function
+            printf("%.2lf / %.2lf = %.2lf",a, b); //Division Function
             break;
     printf("Error encountered by the input values");
     }
