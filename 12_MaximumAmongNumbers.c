@@ -1,14 +1,14 @@
-//© Ishav Verma 18/March/2021
-#include <stdio.h>
-#include <conio.h>
+//Ritika Koul
+#include <stdio.h>  //Preprocessor directive to include standard input output header file
+#include <conio.h>  //Preprocessor directive to include console input output header file
 
 int main()
 {
-  int i,num,n,large=0;
+  int i,num,n,large=0; // Variable declratation 
 
   //It will set the maximum number (Limit) of values to be entered by user based on their choice.
   printf("How many numbers: ");
-  scanf("%d",&n); 
+  scanf("%d",&n);  
   
   for(i=0; i<n; i++)
   {
