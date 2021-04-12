@@ -1,4 +1,5 @@
 //A C Program to calculate distance between two points.
+// Ritika Koul
 #include<stdio.h> //Including Standard input & output header file from library. 
 #include<math.h>  //Including maths header file from library/
   
@@ -18,3 +19,4 @@ int main()
   
     return 0;
 }
+// End of Loop
