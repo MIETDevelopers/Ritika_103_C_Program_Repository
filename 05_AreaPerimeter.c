@@ -1,15 +1,16 @@
-//A C Program to calculate Area/Perimeter of different shapes.               © Ishav Verma 18/March/2021
+//A C Program to calculate Area/Perimeter of different shapes.              
+// Ritika Koul
 //Perimeter of Square: 4 * side: side
 //Perimeter of Rectagnle: 2 * (Length + Breadth): Length, Breadth
 //Perimeter of Circle: 2*(22/7)*r: radius
 //Area of Square: side*side: side
 //Area of Rectangle: Length * Breadth: Length, Breadth
 //Area of Circle: (22/7)*r*r: radius 
-#include <stdio.h>
-#include <stdio.h>
-#include <math.h>
+#include <stdio.h> //Preprocessor directive to include standard input output header file
+#include <stdio.h>  //Preprocessor directive to include standard input output header file
+#include <math.h>  //Preprocessor directive to include mathematics functions
 int main(){
-    char purpose;
+    char purpose; // Variable declaratation 
     printf("Enter the mode of operation.\n 1.Perimeter of square.\n 2.Perimeter of rectangle.\n 3.Perimeter of circle.\n 4.Area of square.\n 5.Area of rectangle.\n 6.Area of circle.\n");
     scanf("%c", &purpose); //It will scan the operater entered by user.
     float value1, value2;
