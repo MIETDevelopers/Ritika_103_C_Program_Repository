@@ -1,5 +1,6 @@
-#include<stdio.h>
- int main(){
+// Ritika Koul
+#include<stdio.h> //Preprocessor directive to include standard input output header file
+ int main(){ // Start of body 
    int n, first = 0, second = 1, next, c; //For the reference to the formuls of the series.
  
    printf("Enter the number of terms\n");
@@ -18,7 +19,8 @@
          first = second;
          second = next;
       }
-      printf("%d\n",next); //This will give the outpu.
+      printf("%d\n",next); //This will give the output.
    }
    return 0;
 }
+// End of Body
