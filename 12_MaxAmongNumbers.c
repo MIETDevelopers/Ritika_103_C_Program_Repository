@@ -1,4 +1,5 @@
-#include <stdio.h>
+//Ritika Koul
+#include <stdio.h>  //Preprocessor directive to include standard input output header file
 int main()
 {
   int i,num,n,large=0;
