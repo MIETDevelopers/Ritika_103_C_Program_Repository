@@ -1,7 +1,8 @@
-#include <stdio.h>
+// Ritika Koul
+#include <stdio.h>   // //Preprocessor directive to include standard input output header file
 int main()
 {
-   int n, i, count = 0;
+   int n, i, count = 0; // Variable declratation 
  
     printf("Enter the Number.\n");
     scanf("%d",&n);//This will scan (read) the number entered by user.
@@ -23,3 +24,4 @@ int main()
  
     getchar();    
 }
+// End of Body 
