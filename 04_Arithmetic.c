@@ -1,7 +1,7 @@
-#include<stdio.h>
+#include<stdio.h> // Preprocessor directive to include standard input output header file
 int main(){
-    char operator;
-    double a, b;
+    char operator; // Variable declratation with char
+    double a, b;  // Variable declratation with double data type 
     printf("Enter an operator (+, -, *, /):"); //It will print the operater to be entered by user.
     scanf("%c", &operator); //It will scan the operater entered by user.
     printf("Enter two operands:");
